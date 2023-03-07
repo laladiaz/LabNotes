@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "petites-notes": {
+      "hosting": {
+        "lab-notes": [
+          "petites-notes"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "petites-notes"
+  }
+}
