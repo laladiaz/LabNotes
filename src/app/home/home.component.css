@@ -1,0 +1,11 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 100vh;
+}
+
+app-header {
+    grid-column: span 4;
+    grid-row: span 1;
+}
