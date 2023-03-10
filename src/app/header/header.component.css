@@ -1,0 +1,42 @@
+.header {
+    grid-column: span 4;
+    grid-row: span 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-small {
+    width: 11.61rem;
+    height: 11.05rem;
+}
+
+.content {
+    width: 23.16rem;
+    text-align: center;
+}
+
+.welcome {
+    color: #5B52BC;
+}
+
+.title {
+    margin-top: 2rem;
+    color: #FF5942;
+}
+
+.logout {
+    width: 4.44rem;
+    height: 7.67rem;
+    margin-right: 2rem;
+}
+
+.logout-button {
+    width: 4.44rem;
+    height: 4.44rem;
+}
+
+.logout-p {
+    color: #5B52BC;
+}
