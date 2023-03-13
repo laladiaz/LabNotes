@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { LoginComponent } from './login/login.component';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
+import { FooterHomeComponent } from './footer-home/footer-home.component';
+import { NotesHomeComponent } from './notes-home/notes-home.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { FIREBASE_OPTIONS } from '@angular/fire/compat';
     HeaderComponent,
     HomeComponent,
     PageNotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    FooterHomeComponent,
+    NotesHomeComponent
   ],
   imports: [
     BrowserModule,
